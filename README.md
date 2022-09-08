@@ -22,23 +22,25 @@ events: inserire eventi in cui è stato tenuto il laboratorio ["evento 1","event
 image: file immagine
 ---
 ```
-* può essere inserita una descrizione del laboratorio dopo la chiusura delle linee.
+* può essere inserita una descrizione del laboratorio dopo la chiusura delle tre linee.
 
-* per inserire un nuovo tipo di laboratorio è sufficiente inserire una nuova categoria in **categories**. Prima di inserire una nuova categoria verificare le categorie esistenti
+* per inserire un nuovo tipo di laboratorio è sufficiente inserire una nuova categoria in **categories**. Prima di inserire una nuova categoria verificare le categorie esistenti.
 
 * i file attach devono essere caricati in public/attaches
 
 * le immagini devono essere caricate in public/images
 
-* i laboratori devono essere caricati in _posts
+* i file contenenti la descrizione laboratori devono essere caricati in _posts
 
-* è possibile prevedere nuovi attributi. Ad esempio potremo aggiungere dati e informazioni di consuntivo, video ecc...
+* è possibile prevedere/aggiungere nuovi attributi. Ad esempio potremo aggiungere dati e informazioni di consuntivo, video ecc...
 
-* Il sistema si autoconfigura rispetto a eventi e tipi di laboratori non appena caricato il file.
+* Il sistema si autoconfigura rispetto a eventi e tipi di laboratori non appena inserito il file.
 
 * Il testo dei laboratori può essere scritto usando il formato [markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
-* Per le immagini è meglio usare rapporto 16/9 
+* Per le immagini è meglio usare rapporto 16/9.
+
+Quando vengono inseriti nuovi files (laboratori, allegati, immagini) github (la piattaforma su cui siete) propone la modifica all'amministratore del sito sottoforma di pull-request. L'amministratore provvede alla pubblicazione, oppure, tramite la piattaforma stessa, può chiedere delle modifche.
 
 ## Author
 
